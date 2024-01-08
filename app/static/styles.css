@@ -1,3 +1,4 @@
+/* Reset de estilos y otros estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -52,26 +53,28 @@ button:hover {
     background-color: rgb(65, 255, 122);
 }
 
+/* Estilos para el footer */
 footer {
-    background-color: #dbdbdb;
-    color: #fff;
+    background-color: #313131;
+    color: #ffffff;
     padding: 20px 0;
     width: 100%;
-    position: fixed;
-    bottom: 0;
     text-align: center;
+    bottom: 0;
+    left: 0; /* Agregar left: 0 para garantizar la posición correcta */
 }
+
+/* Estilos específicos para el footer */
 footer p a {
     text-decoration: none;
     margin: 0 10px;
-    color: #fff;
 }
 
 .container2 {
     width: 90%;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(54, 54, 54);
+    background-color: #454545;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(236, 236, 236, 0.1);
 }
