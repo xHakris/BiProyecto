@@ -14,6 +14,17 @@ def predict():
         caracteristica_3 = float(request.form['caracteristica_3'])
         caracteristica_4 = float(request.form['caracteristica_4'])
         caracteristica_5 = float(request.form['caracteristica_5'])
+        caracteristica_6 = float(request.form['caracteristica_6'])
+        caracteristica_7 = float(request.form['caracteristica_7'])
+        caracteristica_8 = float(request.form['caracteristica_8'])
+        caracteristica_9 = float(request.form['caracteristica_9'])
+        caracteristica_10 = float(request.form['caracteristica_10'])
+        caracteristica_11 = float(request.form['caracteristica_11'])
+        caracteristica_12 = float(request.form['caracteristica_12'])
+        caracteristica_13 = float(request.form['caracteristica_13'])
+        caracteristica_14 = float(request.form['caracteristica_14'])
+        caracteristica_15 = float(request.form['caracteristica_15'])
+
         # Realiza la predicción con las características recibidas
 
         # Aquí deberías utilizar tu lógica para cargar el modelo y hacer la predicción
