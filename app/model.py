@@ -1,6 +1,8 @@
 import tensorflow as tf
 
-def cargar_modelo_y_realizar_prediccion(caracteristica_1, caracteristica_2):
+def cargar_modelo_y_realizar_prediccion(caracteristica_1, caracteristica_2, caracteristica_3, caracteristica_4, caracteristica_5,
+                                        caracteristica_6, caracteristica_7, caracteristica_8, caracteristica_9, caracteristica_10,
+                                        caracteristica_11, caracteristica_12, caracteristica_13, caracteristica_14, caracteristica_15):
     # Carga tu modelo entrenado (reemplaza esta parte con el código de carga de tu modelo)
     # Ejemplo con TensorFlow
     # model = tf.keras.models.load_model('ruta_del_modelo')
