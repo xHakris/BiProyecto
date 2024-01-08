@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción con Red Neuronal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Proyecto final BI</h1>
+        <h1>Predicción con Red Neuronal</h1>
+        <form action="/predict" method="post">
+            <div class="input-group">
+                <label for="caracteristica_1">Característica 1:</label>
+                <input type="text" id="caracteristica_1" name="caracteristica_1" required>
+            </div>
+            <div class="input-group">
+                <label for="caracteristica_2">Característica 2:</label>
+                <input type="text" id="caracteristica_2" name="caracteristica_2" required>
+            </div>
+            <div class="input-group">
+                <label for="caracteristica_2">Característica 3:</label>
+                <input type="text" id="caracteristica_2" name="caracteristica_2" required>
+            </div>
+            <div class="input-group">
+                <label for="caracteristica_2">Característica 4:</label>
+                <input type="text" id="caracteristica_2" name="caracteristica_2" required>
+            </div>
+            <div class="input-group">
+                <label for="caracteristica_2">Característica 5:</label>
+                <input type="text" id="caracteristica_2" name="caracteristica_2" required>
+            </div>
+            <!-- Puedes añadir más campos según las características que necesites -->
+            <button type="submit">Realizar Predicción</button>
+        </form>
+    </div>
+</body>
+</html>
